@@ -21,6 +21,7 @@ def dist_plot(df, column, mean, std, lower, upper):
     plt.xlabel(column, size=12)    
     plt.ylabel("Frequency", size=12)                
     plt.grid(True, alpha=0.3, linestyle="--")
+    
     plt.show()
 
 def add_norm(df, column, new_column):
