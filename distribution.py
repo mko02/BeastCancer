@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 
 def dist_info(df, column):
+    
     mean = df[[column]].mean().item()
     std = df[[column]].std().item()
 
